@@ -1,6 +1,6 @@
 'use strict';
 {
-  const maartjesWork = [
+  const todos = [
     {
       task: 'Write a summary HTML/CSS',
       done: false
@@ -39,16 +39,8 @@
     }
   ];
 
-  function render(todos, container) {
-    for (let i = 0; i < todos.length; i++) {
-      const todo = todos[i];
-      const li = document.createElement('li');
-      container.appendChild(li);
-      li.innerText = todo.task;
-      if (todo.done) {
-        li.setAttribute('style', 'text-decoration: line-through');
-      }
-    }
+  function render(container) {
+    // add your code here
   }
 
   function main() {
@@ -59,8 +51,8 @@
     const ul = document.createElement('ul');
     root.appendChild(ul);
 
-    render(maartjesWork, ul);
+    render(ul);
   }
 
-  window.onload = main;
+  window.addEventListener('load', main);
 }
