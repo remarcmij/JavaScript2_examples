@@ -40,7 +40,6 @@
   ];
 
   function render(container) {
-    container.innerHTML = '';
     for (let i = 0; i < todos.length; i++) {
       const todo = todos[i];
       const li = document.createElement('li');
@@ -54,7 +53,11 @@
 
       li.addEventListener('click', function () {
         todo.done = !todo.done;
-        render(container);
+        if (todo.done) {
+          li.style.textDecoration = 'line-through';
+        } else {
+          li.removeAttribute('style');
+        }
       });
     }
   }
