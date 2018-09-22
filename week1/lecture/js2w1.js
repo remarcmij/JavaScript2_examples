@@ -28,15 +28,6 @@ function main() {
     colorElem.style.color = "magenta";
     colorElem.innerText = "I am magenta text.";
 
-    // 4. Create Elements - DEMO
-    /*const rootElem = document.getElementById('root');
-    const h1Elem = document.createElement('h1');
-    h1Elem.innerText = 'Maartjes work';
-    rootElem.appendChild(h1Elem);
-    const ulElem = document.createElement('ul');
-    rootElem.appendChild(ulElem);
-    render(maartjesWork, ulElem); */
-
     // EVENTS & EVENTS PROPAGATION
 
     // 1. addEventListener
