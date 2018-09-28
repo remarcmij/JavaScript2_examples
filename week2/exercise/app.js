@@ -10,4 +10,10 @@ const nearbyPlaces = places.filter(place => ...);
 
 console.log('Number of nearby places in postcode 1018: ' + nearbyPlaces.length);
 
-// add your code here
+const nearbyPlaceDetails = nearbyPlaces.map(place => ...);
+
+nearbyPlaceDetails.forEach(place => {
+  console.log(place.title);
+  console.log('  ' + place.shortdescription);
+  console.log('  address: ' + place.address);
+});
