@@ -32,7 +32,7 @@ function reportCategory(prizes, category) {
 }
 
 function main() {
-  const jsonString = readFileSync('./prize.json', 'utf8');
+  const jsonString = readFileSync('./data.json', 'utf8');
   const json = JSON.parse(jsonString);
   const prizes = json.prizes;
 

@@ -1,5 +1,5 @@
 const { readFileSync } = require('fs');
-const jsonString = readFileSync('./prize.json', 'utf8');
+const jsonString = readFileSync('./data.json', 'utf8');
 
 console.log(typeof jsonString);
 const json = JSON.parse(jsonString);
