@@ -1,820 +1,257 @@
+Set {
+  'physics',
+  'chemistry',
+  'medicine',
+  'literature',
+  'peace',
+  'economics' }
+[ 'physics',
+  'chemistry',
+  'medicine',
+  'literature',
+  'peace',
+  'economics' ]
 PHYSICS
-1902:
--  Hendrik Antoon Lorentz
--  Pieter Zeeman
-1903:
--  Antoine Henri Becquerel
--  Pierre Curie
--  Marie Curie, née Sklodowska
-1909:
--  Guglielmo Marconi
--  Karl Ferdinand Braun
-1915:
--  Sir William Henry Bragg
--  William Lawrence Bragg
-1925:
--  James Franck
--  Gustav Ludwig Hertz
-1927:
--  Arthur Holly Compton
--  Charles Thomson Rees Wilson
-1933:
--  Erwin Schrödinger
--  Paul Adrien Maurice Dirac
-1936:
--  Victor Franz Hess
--  Carl David Anderson
-1937:
--  Clinton Joseph Davisson
--  George Paget Thomson
-1951:
--  Sir John Douglas Cockcroft
--  Ernest Thomas Sinton Walton
-1952:
--  Felix Bloch
--  Edward Mills Purcell
-1954:
--  Max Born
--  Walther Bothe
-1955:
--  Willis Eugene Lamb
--  Polykarp Kusch
-1956:
--  William Bradford Shockley
--  John Bardeen
--  Walter Houser Brattain
-1957:
--  Chen Ning Yang
--  Tsung-Dao (T.D.) Lee
-1958:
--  Pavel Alekseyevich Cherenkov
--  Il´ja Mikhailovich Frank
--  Igor Yevgenyevich Tamm
-1959:
--  Emilio Gino Segrè
--  Owen Chamberlain
-1961:
--  Robert Hofstadter
--  Rudolf Ludwig Mössbauer
-1963:
--  Eugene Paul Wigner
--  Maria Goeppert Mayer
--  J. Hans D. Jensen
-1964:
--  Charles Hard Townes
--  Nicolay Gennadiyevich Basov
--  Aleksandr Mikhailovich Prokhorov
-1965:
--  Sin-Itiro Tomonaga
--  Julian Schwinger
--  Richard P. Feynman
-1970:
--  Hannes Olof Gösta Alfvén
--  Louis Eugène Félix Néel
-1972:
--  John Bardeen
--  Leon Neil Cooper
--  John Robert Schrieffer
-1973:
--  Leo Esaki
--  Ivar Giaever
--  Brian David Josephson
-1974:
--  Sir Martin Ryle
--  Antony Hewish
-1975:
--  Aage Niels Bohr
--  Ben Roy Mottelson
--  Leo James Rainwater
-1976:
--  Burton Richter
--  Samuel Chao Chung Ting
-1977:
--  Philip Warren Anderson
--  Sir Nevill Francis Mott
--  John Hasbrouck van Vleck
-1978:
--  Pyotr Leonidovich Kapitsa
--  Arno Allan Penzias
--  Robert Woodrow Wilson
-1979:
--  Sheldon Lee Glashow
--  Abdus Salam
--  Steven Weinberg
-1980:
--  James Watson Cronin
--  Val Logsdon Fitch
-1981:
--  Nicolaas Bloembergen
--  Arthur Leonard Schawlow
--  Kai M. Siegbahn
-1983:
--  Subramanyan Chandrasekhar
--  William Alfred Fowler
-1984:
--  Carlo Rubbia
--  Simon van der Meer
-1986:
--  Ernst Ruska
--  Gerd Binnig
--  Heinrich Rohrer
-1987:
--  J. Georg Bednorz
--  K. Alexander Müller
-1988:
--  Leon M. Lederman
--  Melvin Schwartz
--  Jack Steinberger
-1989:
--  Norman F. Ramsey
--  Hans G. Dehmelt
--  Wolfgang Paul
-1990:
--  Jerome I. Friedman
--  Henry W. Kendall
--  Richard E. Taylor
-1993:
--  Russell A. Hulse
--  Joseph H. Taylor Jr.
-1994:
--  Bertram N. Brockhouse
--  Clifford G. Shull
-1995:
--  Martin L. Perl
--  Frederick Reines
-1996:
--  David M. Lee
--  Douglas D. Osheroff
--  Robert C. Richardson
-1997:
--  Steven Chu
--  Claude Cohen-Tannoudji
--  William D. Phillips
-1998:
--  Robert B. Laughlin
--  Horst L. Störmer
--  Daniel C. Tsui
-1999:
--  Gerardus 't Hooft
--  Martinus J.G. Veltman
-2000:
--  Zhores I. Alferov
--  Herbert Kroemer
--  Jack S. Kilby
-2001:
--  Eric A. Cornell
--  Wolfgang Ketterle
--  Carl E. Wieman
-2002:
--  Raymond Davis Jr.
--  Masatoshi Koshiba
--  Riccardo Giacconi
-2003:
--  Alexei A. Abrikosov
--  Vitaly L. Ginzburg
--  Anthony J. Leggett
-2004:
--  David J. Gross
--  H. David Politzer
--  Frank Wilczek
-2005:
--  Roy J. Glauber
--  John L. Hall
--  Theodor W. Hänsch
-2006:
--  John C. Mather
--  George F. Smoot
-2007:
--  Albert Fert
--  Peter Grünberg
-2008:
--  Yoichiro Nambu
--  Makoto Kobayashi
--  Toshihide Maskawa
-2009:
--  Charles Kuen Kao
--  Willard S. Boyle
--  George E. Smith
-2010:
--  Andre Geim
--  Konstantin Novoselov
-2011:
--  Saul Perlmutter
--  Brian P. Schmidt
--  Adam G. Riess
-2012:
--  Serge Haroche
--  David J. Wineland
-2013:
--  François Englert
--  Peter W. Higgs
-2014:
--  Isamu Akasaki
--  Hiroshi Amano
--  Shuji Nakamura
-2015:
--  Takaaki Kajita
--  Arthur B. McDonald
-2016:
--  David J. Thouless
--  F. Duncan M. Haldane
--  J. Michael Kosterlitz
-2017:
--  Rainer Weiss
--  Barry C. Barish
--  Kip S. Thorne
+2017: Rainer Weiss, Barry C. Barish, Kip S. Thorne
+2016: David J. Thouless, F. Duncan M. Haldane, J. Michael Kosterlitz
+2015: Takaaki Kajita, Arthur B. McDonald
+2014: Isamu Akasaki, Hiroshi Amano, Shuji Nakamura
+2013: François Englert, Peter W. Higgs
+2012: Serge Haroche, David J. Wineland
+2011: Saul Perlmutter, Brian P. Schmidt, Adam G. Riess
+2010: Andre Geim, Konstantin Novoselov
+2009: Charles Kuen Kao, Willard S. Boyle, George E. Smith
+2008: Yoichiro Nambu, Makoto Kobayashi, Toshihide Maskawa
+2007: Albert Fert, Peter Grünberg
+2006: John C. Mather, George F. Smoot
+2005: Roy J. Glauber, John L. Hall, Theodor W. Hänsch
+2004: David J. Gross, H. David Politzer, Frank Wilczek
+2003: Alexei A. Abrikosov, Vitaly L. Ginzburg, Anthony J. Leggett
+2002: Raymond Davis Jr., Masatoshi Koshiba, Riccardo Giacconi
+2001: Eric A. Cornell, Wolfgang Ketterle, Carl E. Wieman
+2000: Zhores I. Alferov, Herbert Kroemer, Jack S. Kilby
+1999: Gerardus 't Hooft, Martinus J.G. Veltman
+1998: Robert B. Laughlin, Horst L. Störmer, Daniel C. Tsui
+1997: Steven Chu, Claude Cohen-Tannoudji, William D. Phillips
+1996: David M. Lee, Douglas D. Osheroff, Robert C. Richardson
+1995: Martin L. Perl, Frederick Reines
+1994: Bertram N. Brockhouse, Clifford G. Shull
+1993: Russell A. Hulse, Joseph H. Taylor Jr.
+1990: Jerome I. Friedman, Henry W. Kendall, Richard E. Taylor
+1989: Norman F. Ramsey, Hans G. Dehmelt, Wolfgang Paul
+1988: Leon M. Lederman, Melvin Schwartz, Jack Steinberger
+1987: J. Georg Bednorz, K. Alexander Müller
+1986: Ernst Ruska, Gerd Binnig, Heinrich Rohrer
+1984: Carlo Rubbia, Simon van der Meer
+1983: Subramanyan Chandrasekhar, William Alfred Fowler
+1981: Nicolaas Bloembergen, Arthur Leonard Schawlow, Kai M. Siegbahn
+1980: James Watson Cronin, Val Logsdon Fitch
+1979: Sheldon Lee Glashow, Abdus Salam, Steven Weinberg
+1978: Pyotr Leonidovich Kapitsa, Arno Allan Penzias, Robert Woodrow Wilson
+1977: Philip Warren Anderson, Sir Nevill Francis Mott, John Hasbrouck van Vleck
+1976: Burton Richter, Samuel Chao Chung Ting
+1975: Aage Niels Bohr, Ben Roy Mottelson, Leo James Rainwater
+1974: Sir Martin Ryle, Antony Hewish
+1973: Leo Esaki, Ivar Giaever, Brian David Josephson
+1972: John Bardeen, Leon Neil Cooper, John Robert Schrieffer
+1970: Hannes Olof Gösta Alfvén, Louis Eugène Félix Néel
+1965: Sin-Itiro Tomonaga, Julian Schwinger, Richard P. Feynman
+1964: Charles Hard Townes, Nicolay Gennadiyevich Basov, Aleksandr Mikhailovich Prokhorov
+1963: Eugene Paul Wigner, Maria Goeppert Mayer, J. Hans D. Jensen
+1961: Robert Hofstadter, Rudolf Ludwig Mössbauer
+1959: Emilio Gino Segrè, Owen Chamberlain
+1958: Pavel Alekseyevich Cherenkov, Il´ja Mikhailovich Frank, Igor Yevgenyevich Tamm
+1957: Chen Ning Yang, Tsung-Dao (T.D.) Lee
+1956: William Bradford Shockley, John Bardeen, Walter Houser Brattain
+1955: Willis Eugene Lamb, Polykarp Kusch
+1954: Max Born, Walther Bothe
+1952: Felix Bloch, Edward Mills Purcell
+1951: Sir John Douglas Cockcroft, Ernest Thomas Sinton Walton
+1937: Clinton Joseph Davisson, George Paget Thomson
+1936: Victor Franz Hess, Carl David Anderson
+1933: Erwin Schrödinger, Paul Adrien Maurice Dirac
+1927: Arthur Holly Compton, Charles Thomson Rees Wilson
+1925: James Franck, Gustav Ludwig Hertz
+1915: Sir William Henry Bragg, William Lawrence Bragg
+1909: Guglielmo Marconi, Karl Ferdinand Braun
+1903: Antoine Henri Becquerel, Pierre Curie, Marie Curie, née Sklodowska
+1902: Hendrik Antoon Lorentz, Pieter Zeeman
 CHEMISTRY
-1912:
--  Victor Grignard
--  Paul Sabatier
-1929:
--  Arthur Harden
--  Hans Karl August Simon von Euler-Chelpin
-1931:
--  Carl Bosch
--  Friedrich Bergius
-1935:
--  Frédéric Joliot
--  Irène Joliot-Curie
-1937:
--  Walter Norman Haworth
--  Paul Karrer
-1939:
--  Adolf Friedrich Johann Butenandt
--  Leopold Ruzicka
-1946:
--  James Batcheller Sumner
--  John Howard Northrop
--  Wendell Meredith Stanley
-1950:
--  Otto Paul Hermann Diels
--  Kurt Alder
-1951:
--  Edwin Mattison McMillan
--  Glenn Theodore Seaborg
-1952:
--  Archer John Porter Martin
--  Richard Laurence Millington Synge
-1956:
--  Sir Cyril Norman Hinshelwood
--  Nikolay Nikolaevich Semenov
-1962:
--  Max Ferdinand Perutz
--  John Cowdery Kendrew
-1963:
--  Karl Ziegler
--  Giulio Natta
-1967:
--  Manfred Eigen
--  Ronald George Wreyford Norrish
--  George Porter
-1969:
--  Derek H. R. Barton
--  Odd Hassel
-1972:
--  Christian B. Anfinsen
--  Stanford Moore
--  William H. Stein
-1973:
--  Ernst Otto Fischer
--  Geoffrey Wilkinson
-1975:
--  John Warcup Cornforth
--  Vladimir Prelog
-1979:
--  Herbert C. Brown
--  Georg Wittig
-1980:
--  Paul Berg
--  Walter Gilbert
--  Frederick Sanger
-1981:
--  Kenichi Fukui
--  Roald Hoffmann
-1985:
--  Herbert A. Hauptman
--  Jerome Karle
-1986:
--  Dudley R. Herschbach
--  Yuan T. Lee
--  John C. Polanyi
-1987:
--  Donald J. Cram
--  Jean-Marie Lehn
--  Charles J. Pedersen
-1988:
--  Johann Deisenhofer
--  Robert Huber
--  Hartmut Michel
-1989:
--  Sidney Altman
--  Thomas R. Cech
-1993:
--  Kary B. Mullis
--  Michael Smith
-1995:
--  Paul J. Crutzen
--  Mario J. Molina
--  F. Sherwood Rowland
-1996:
--  Robert F. Curl Jr.
--  Sir Harold W. Kroto
--  Richard E. Smalley
-1997:
--  Paul D. Boyer
--  John E. Walker
--  Jens C. Skou
-1998:
--  Walter Kohn
--  John A. Pople
-2000:
--  Alan J. Heeger
--  Alan G. MacDiarmid
--  Hideki Shirakawa
-2001:
--  William S. Knowles
--  Ryoji Noyori
--  K. Barry Sharpless
-2002:
--  John B. Fenn
--  Koichi Tanaka
--  Kurt Wüthrich
-2003:
--  Peter Agre
--  Roderick MacKinnon
-2004:
--  Aaron Ciechanover
--  Avram Hershko
--  Irwin Rose
-2005:
--  Yves Chauvin
--  Robert H. Grubbs
--  Richard R. Schrock
-2008:
--  Osamu Shimomura
--  Martin Chalfie
--  Roger Y. Tsien
-2009:
--  Venkatraman Ramakrishnan
--  Thomas A. Steitz
--  Ada E. Yonath
-2010:
--  Richard F. Heck
--  Ei-ichi Negishi
--  Akira Suzuki
-2012:
--  Robert J. Lefkowitz
--  Brian K. Kobilka
-2013:
--  Martin Karplus
--  Michael Levitt
--  Arieh Warshel
-2014:
--  Eric Betzig
--  Stefan W. Hell
--  William E. Moerner
-2015:
--  Tomas Lindahl
--  Paul Modrich
--  Aziz Sancar
-2016:
--  Jean-Pierre Sauvage
--  Sir J. Fraser Stoddart
--  Bernard L. Feringa
-2017:
--  Jacques Dubochet
--  Joachim Frank
--  Richard Henderson
+2017: Jacques Dubochet, Joachim Frank, Richard Henderson
+2016: Jean-Pierre Sauvage, Sir J. Fraser Stoddart, Bernard L. Feringa
+2015: Tomas Lindahl, Paul Modrich, Aziz Sancar
+2014: Eric Betzig, Stefan W. Hell, William E. Moerner
+2013: Martin Karplus, Michael Levitt, Arieh Warshel
+2012: Robert J. Lefkowitz, Brian K. Kobilka
+2010: Richard F. Heck, Ei-ichi Negishi, Akira Suzuki
+2009: Venkatraman Ramakrishnan, Thomas A. Steitz, Ada E. Yonath
+2008: Osamu Shimomura, Martin Chalfie, Roger Y. Tsien
+2005: Yves Chauvin, Robert H. Grubbs, Richard R. Schrock
+2004: Aaron Ciechanover, Avram Hershko, Irwin Rose
+2003: Peter Agre, Roderick MacKinnon
+2002: John B. Fenn, Koichi Tanaka, Kurt Wüthrich
+2001: William S. Knowles, Ryoji Noyori, K. Barry Sharpless
+2000: Alan J. Heeger, Alan G. MacDiarmid, Hideki Shirakawa
+1998: Walter Kohn, John A. Pople
+1997: Paul D. Boyer, John E. Walker, Jens C. Skou
+1996: Robert F. Curl Jr., Sir Harold W. Kroto, Richard E. Smalley
+1995: Paul J. Crutzen, Mario J. Molina, F. Sherwood Rowland
+1993: Kary B. Mullis, Michael Smith
+1989: Sidney Altman, Thomas R. Cech
+1988: Johann Deisenhofer, Robert Huber, Hartmut Michel
+1987: Donald J. Cram, Jean-Marie Lehn, Charles J. Pedersen
+1986: Dudley R. Herschbach, Yuan T. Lee, John C. Polanyi
+1985: Herbert A. Hauptman, Jerome Karle
+1981: Kenichi Fukui, Roald Hoffmann
+1980: Paul Berg, Walter Gilbert, Frederick Sanger
+1979: Herbert C. Brown, Georg Wittig
+1975: John Warcup Cornforth, Vladimir Prelog
+1973: Ernst Otto Fischer, Geoffrey Wilkinson
+1972: Christian B. Anfinsen, Stanford Moore, William H. Stein
+1969: Derek H. R. Barton, Odd Hassel
+1967: Manfred Eigen, Ronald George Wreyford Norrish, George Porter
+1963: Karl Ziegler, Giulio Natta
+1962: Max Ferdinand Perutz, John Cowdery Kendrew
+1956: Sir Cyril Norman Hinshelwood, Nikolay Nikolaevich Semenov
+1952: Archer John Porter Martin, Richard Laurence Millington Synge
+1951: Edwin Mattison McMillan, Glenn Theodore Seaborg
+1950: Otto Paul Hermann Diels, Kurt Alder
+1946: James Batcheller Sumner, John Howard Northrop, Wendell Meredith Stanley
+1939: Adolf Friedrich Johann Butenandt, Leopold Ruzicka
+1937: Walter Norman Haworth, Paul Karrer
+1935: Frédéric Joliot, Irène Joliot-Curie
+1931: Carl Bosch, Friedrich Bergius
+1929: Arthur Harden, Hans Karl August Simon von Euler-Chelpin
+1912: Victor Grignard, Paul Sabatier
 MEDICINE
-1906:
--  Camillo Golgi
--  Santiago Ramón y Cajal
-1908:
--  Ilya Ilyich Mechnikov
--  Paul Ehrlich
-1922:
--  Archibald Vivian Hill
--  Otto Fritz Meyerhof
-1923:
--  Frederick Grant Banting
--  John James Rickard Macleod
-1929:
--  Christiaan Eijkman
--  Sir Frederick Gowland Hopkins
-1932:
--  Sir Charles Scott Sherrington
--  Edgar Douglas Adrian
-1934:
--  George Hoyt Whipple
--  George Richards Minot
--  William Parry Murphy
-1936:
--  Sir Henry Hallett Dale
--  Otto Loewi
-1943:
--  Henrik Carl Peter Dam
--  Edward Adelbert Doisy
-1944:
--  Joseph Erlanger
--  Herbert Spencer Gasser
-1945:
--  Sir Alexander Fleming
--  Ernst Boris Chain
--  Sir Howard Walter Florey
-1947:
--  Carl Ferdinand Cori
--  Gerty Theresa Cori, née Radnitz
--  Bernardo Alberto Houssay
-1949:
--  Walter Rudolf Hess
--  Antonio Caetano de Abreu Freire Egas Moniz
-1950:
--  Edward Calvin Kendall
--  Tadeus Reichstein
--  Philip Showalter Hench
-1953:
--  Hans Adolf Krebs
--  Fritz Albert Lipmann
-1954:
--  John Franklin Enders
--  Thomas Huckle Weller
--  Frederick Chapman Robbins
-1956:
--  André Frédéric Cournand
--  Werner Forssmann
--  Dickinson W. Richards
-1958:
--  George Wells Beadle
--  Edward Lawrie Tatum
--  Joshua Lederberg
-1959:
--  Severo Ochoa
--  Arthur Kornberg
-1960:
--  Sir Frank Macfarlane Burnet
--  Peter Brian Medawar
-1962:
--  Francis Harry Compton Crick
--  James Dewey Watson
--  Maurice Hugh Frederick Wilkins
-1963:
--  Sir John Carew Eccles
--  Alan Lloyd Hodgkin
--  Andrew Fielding Huxley
-1964:
--  Konrad Bloch
--  Feodor Lynen
-1965:
--  François Jacob
--  André Lwoff
--  Jacques Monod
-1966:
--  Peyton Rous
--  Charles Brenton Huggins
-1967:
--  Ragnar Granit
--  Haldan Keffer Hartline
--  George Wald
-1968:
--  Robert W. Holley
--  Har Gobind Khorana
--  Marshall W. Nirenberg
-1969:
--  Max Delbrück
--  Alfred D. Hershey
--  Salvador E. Luria
-1970:
--  Sir Bernard Katz
--  Ulf von Euler
--  Julius Axelrod
-1972:
--  Gerald M. Edelman
--  Rodney R. Porter
-1973:
--  Karl von Frisch
--  Konrad Lorenz
--  Nikolaas Tinbergen
-1974:
--  Albert Claude
--  Christian de Duve
--  George E. Palade
-1975:
--  David Baltimore
--  Renato Dulbecco
--  Howard Martin Temin
-1976:
--  Baruch S. Blumberg
--  D. Carleton Gajdusek
-1977:
--  Roger Guillemin
--  Andrew V. Schally
--  Rosalyn Yalow
-1978:
--  Werner Arber
--  Daniel Nathans
--  Hamilton O. Smith
-1979:
--  Allan M. Cormack
--  Godfrey N. Hounsfield
-1980:
--  Baruj Benacerraf
--  Jean Dausset
--  George D. Snell
-1981:
--  Roger W. Sperry
--  David H. Hubel
--  Torsten N. Wiesel
-1982:
--  Sune K. Bergström
--  Bengt I. Samuelsson
--  John R. Vane
-1984:
--  Niels K. Jerne
--  Georges J.F. Köhler
--  César Milstein
-1985:
--  Michael S. Brown
--  Joseph L. Goldstein
-1986:
--  Stanley Cohen
--  Rita Levi-Montalcini
-1988:
--  Sir James W. Black
--  Gertrude B. Elion
--  George H. Hitchings
-1989:
--  J. Michael Bishop
--  Harold E. Varmus
-1990:
--  Joseph E. Murray
--  E. Donnall Thomas
-1991:
--  Erwin Neher
--  Bert Sakmann
-1992:
--  Edmond H. Fischer
--  Edwin G. Krebs
-1993:
--  Richard J. Roberts
--  Phillip A. Sharp
-1994:
--  Alfred G. Gilman
--  Martin Rodbell
-1995:
--  Edward B. Lewis
--  Christiane Nüsslein-Volhard
--  Eric F. Wieschaus
-1996:
--  Peter C. Doherty
--  Rolf M. Zinkernagel
-1998:
--  Robert F. Furchgott
--  Louis J. Ignarro
--  Ferid Murad
-2000:
--  Arvid Carlsson
--  Paul Greengard
--  Eric R. Kandel
-2001:
--  Leland H. Hartwell
--  Tim Hunt
--  Sir Paul M. Nurse
-2002:
--  Sydney Brenner
--  H. Robert Horvitz
--  John E. Sulston
-2003:
--  Paul C. Lauterbur
--  Sir Peter Mansfield
-2004:
--  Richard Axel
--  Linda B. Buck
-2005:
--  Barry J. Marshall
--  J. Robin Warren
-2006:
--  Andrew Z. Fire
--  Craig C. Mello
-2007:
--  Mario R. Capecchi
--  Sir Martin J. Evans
--  Oliver Smithies
-2008:
--  Harald zur Hausen
--  Françoise Barré-Sinoussi
--  Luc Montagnier
-2009:
--  Elizabeth H. Blackburn
--  Carol W. Greider
--  Jack W. Szostak
-2011:
--  Bruce A. Beutler
--  Jules A. Hoffmann
--  Ralph M. Steinman
-2012:
--  Sir John B. Gurdon
--  Shinya Yamanaka
-2013:
--  James E. Rothman
--  Randy W. Schekman
--  Thomas C. Südhof
-2014:
--  John O'Keefe
--  May-Britt Moser
--  Edvard I. Moser
-2015:
--  William C. Campbell
--  Satoshi Ōmura
--  Youyou Tu
-2017:
--  Jeffrey C. Hall
--  Michael Rosbash
--  Michael W. Young
+2017: Jeffrey C. Hall, Michael Rosbash, Michael W. Young
+2015: William C. Campbell, Satoshi Ōmura, Youyou Tu
+2014: John O'Keefe, May-Britt Moser, Edvard I. Moser
+2013: James E. Rothman, Randy W. Schekman, Thomas C. Südhof
+2012: Sir John B. Gurdon, Shinya Yamanaka
+2011: Bruce A. Beutler, Jules A. Hoffmann, Ralph M. Steinman
+2009: Elizabeth H. Blackburn, Carol W. Greider, Jack W. Szostak
+2008: Harald zur Hausen, Françoise Barré-Sinoussi, Luc Montagnier
+2007: Mario R. Capecchi, Sir Martin J. Evans, Oliver Smithies
+2006: Andrew Z. Fire, Craig C. Mello
+2005: Barry J. Marshall, J. Robin Warren
+2004: Richard Axel, Linda B. Buck
+2003: Paul C. Lauterbur, Sir Peter Mansfield
+2002: Sydney Brenner, H. Robert Horvitz, John E. Sulston
+2001: Leland H. Hartwell, Tim Hunt, Sir Paul M. Nurse
+2000: Arvid Carlsson, Paul Greengard, Eric R. Kandel
+1998: Robert F. Furchgott, Louis J. Ignarro, Ferid Murad
+1996: Peter C. Doherty, Rolf M. Zinkernagel
+1995: Edward B. Lewis, Christiane Nüsslein-Volhard, Eric F. Wieschaus
+1994: Alfred G. Gilman, Martin Rodbell
+1993: Richard J. Roberts, Phillip A. Sharp
+1992: Edmond H. Fischer, Edwin G. Krebs
+1991: Erwin Neher, Bert Sakmann
+1990: Joseph E. Murray, E. Donnall Thomas
+1989: J. Michael Bishop, Harold E. Varmus
+1988: Sir James W. Black, Gertrude B. Elion, George H. Hitchings
+1986: Stanley Cohen, Rita Levi-Montalcini
+1985: Michael S. Brown, Joseph L. Goldstein
+1984: Niels K. Jerne, Georges J.F. Köhler, César Milstein
+1982: Sune K. Bergström, Bengt I. Samuelsson, John R. Vane
+1981: Roger W. Sperry, David H. Hubel, Torsten N. Wiesel
+1980: Baruj Benacerraf, Jean Dausset, George D. Snell
+1979: Allan M. Cormack, Godfrey N. Hounsfield
+1978: Werner Arber, Daniel Nathans, Hamilton O. Smith
+1977: Roger Guillemin, Andrew V. Schally, Rosalyn Yalow
+1976: Baruch S. Blumberg, D. Carleton Gajdusek
+1975: David Baltimore, Renato Dulbecco, Howard Martin Temin
+1974: Albert Claude, Christian de Duve, George E. Palade
+1973: Karl von Frisch, Konrad Lorenz, Nikolaas Tinbergen
+1972: Gerald M. Edelman, Rodney R. Porter
+1970: Sir Bernard Katz, Ulf von Euler, Julius Axelrod
+1969: Max Delbrück, Alfred D. Hershey, Salvador E. Luria
+1968: Robert W. Holley, Har Gobind Khorana, Marshall W. Nirenberg
+1967: Ragnar Granit, Haldan Keffer Hartline, George Wald
+1966: Peyton Rous, Charles Brenton Huggins
+1965: François Jacob, André Lwoff, Jacques Monod
+1964: Konrad Bloch, Feodor Lynen
+1963: Sir John Carew Eccles, Alan Lloyd Hodgkin, Andrew Fielding Huxley
+1962: Francis Harry Compton Crick, James Dewey Watson, Maurice Hugh Frederick Wilkins
+1960: Sir Frank Macfarlane Burnet, Peter Brian Medawar
+1959: Severo Ochoa, Arthur Kornberg
+1958: George Wells Beadle, Edward Lawrie Tatum, Joshua Lederberg
+1956: André Frédéric Cournand, Werner Forssmann, Dickinson W. Richards
+1954: John Franklin Enders, Thomas Huckle Weller, Frederick Chapman Robbins
+1953: Hans Adolf Krebs, Fritz Albert Lipmann
+1950: Edward Calvin Kendall, Tadeus Reichstein, Philip Showalter Hench
+1949: Walter Rudolf Hess, Antonio Caetano de Abreu Freire Egas Moniz
+1947: Carl Ferdinand Cori, Gerty Theresa Cori, née Radnitz, Bernardo Alberto Houssay
+1945: Sir Alexander Fleming, Ernst Boris Chain, Sir Howard Walter Florey
+1944: Joseph Erlanger, Herbert Spencer Gasser
+1943: Henrik Carl Peter Dam, Edward Adelbert Doisy
+1936: Sir Henry Hallett Dale, Otto Loewi
+1934: George Hoyt Whipple, George Richards Minot, William Parry Murphy
+1932: Sir Charles Scott Sherrington, Edgar Douglas Adrian
+1929: Christiaan Eijkman, Sir Frederick Gowland Hopkins
+1923: Frederick Grant Banting, John James Rickard Macleod
+1922: Archibald Vivian Hill, Otto Fritz Meyerhof
+1908: Ilya Ilyich Mechnikov, Paul Ehrlich
+1906: Camillo Golgi, Santiago Ramón y Cajal
 LITERATURE
-1904:
--  Frédéric Mistral
--  José Echegaray y Eizaguirre
-1917:
--  Karl Adolph Gjellerup
--  Henrik Pontoppidan
-1966:
--  Shmuel Yosef Agnon
--  Nelly Sachs
-1974:
--  Eyvind Johnson
--  Harry Martinson
+1974: Eyvind Johnson, Harry Martinson
+1966: Shmuel Yosef Agnon, Nelly Sachs
+1917: Karl Adolph Gjellerup, Henrik Pontoppidan
+1904: Frédéric Mistral, José Echegaray y Eizaguirre
 PEACE
-1901:
--  Jean Henry Dunant
--  Frédéric Passy
-1902:
--  Élie Ducommun
--  Charles Albert Gobat
-1907:
--  Ernesto Teodoro Moneta
--  Louis Renault
-1908:
--  Klas Pontus Arnoldson
--  Fredrik Bajer
-1909:
--  Auguste Marie François Beernaert
--  Paul Henri Benjamin Balluet d'Estournelles de Constant, Baron de Constant de Rebecque
-1911:
--  Tobias Michael Carel Asser
--  Alfred Hermann Fried
-1921:
--  Karl Hjalmar Branting
--  Christian Lous Lange
-1925:
--  Sir Austen Chamberlain
--  Charles Gates Dawes
-1926:
--  Aristide Briand
--  Gustav Stresemann
-1927:
--  Ferdinand Buisson
--  Ludwig Quidde
-1931:
--  Jane Addams
--  Nicholas Murray Butler
-1946:
--  Emily Greene Balch
--  John Raleigh Mott
-1947:
--  Friends Service Council (The Quakers) 
--  American Friends Service Committee (The Quakers) 
-1963:
--  Comité international de la Croix Rouge (International Committee of the Red Cross) 
--  Ligue des Sociétés de la Croix-Rouge (League of Red Cross Societies) 
-1973:
--  Henry A. Kissinger
--  Le Duc Tho 
-1974:
--  Seán MacBride
--  Eisaku Sato
-1976:
--  Betty Williams
--  Mairead Corrigan
-1978:
--  Mohamed Anwar al-Sadat
--  Menachem Begin
-1982:
--  Alva Myrdal
--  Alfonso García Robles
-1993:
--  Nelson Mandela
--  Frederik Willem de Klerk
-1994:
--  Yasser Arafat
--  Shimon Peres
--  Yitzhak Rabin
-1995:
--  Joseph Rotblat
--  Pugwash Conferences on Science and World Affairs 
-1996:
--  Carlos Filipe Ximenes Belo
--  José Ramos-Horta
-1997:
--  International Campaign to Ban Landmines (ICBL) 
--  Jody Williams
-1998:
--  John Hume
--  David Trimble
-2001:
--  United Nations (U.N.) 
--  Kofi Annan
-2005:
--  International Atomic Energy Agency (IAEA) 
--  Mohamed ElBaradei
-2006:
--  Muhammad Yunus
--  Grameen Bank 
-2007:
--  Intergovernmental Panel on Climate Change (IPCC) 
--  Albert Arnold (Al) Gore Jr.
-2011:
--  Ellen Johnson Sirleaf
--  Leymah Gbowee
--  Tawakkol Karman
-2014:
--  Kailash Satyarthi
--  Malala Yousafzai
+2014: Kailash Satyarthi, Malala Yousafzai
+2011: Ellen Johnson Sirleaf, Leymah Gbowee, Tawakkol Karman
+2007: Intergovernmental Panel on Climate Change (IPCC) , Albert Arnold (Al) Gore Jr.
+2006: Muhammad Yunus, Grameen Bank 
+2005: International Atomic Energy Agency (IAEA) , Mohamed ElBaradei
+2001: United Nations (U.N.) , Kofi Annan
+1998: John Hume, David Trimble
+1997: International Campaign to Ban Landmines (ICBL) , Jody Williams
+1996: Carlos Filipe Ximenes Belo, José Ramos-Horta
+1995: Joseph Rotblat, Pugwash Conferences on Science and World Affairs 
+1994: Yasser Arafat, Shimon Peres, Yitzhak Rabin
+1993: Nelson Mandela, Frederik Willem de Klerk
+1982: Alva Myrdal, Alfonso García Robles
+1978: Mohamed Anwar al-Sadat, Menachem Begin
+1976: Betty Williams, Mairead Corrigan
+1974: Seán MacBride, Eisaku Sato
+1973: Henry A. Kissinger, Le Duc Tho 
+1963: Comité international de la Croix Rouge (International Committee of the Red Cross) , Ligue des Sociétés de la Croix-Rouge (League of Red Cross Societies) 
+1947: Friends Service Council (The Quakers) , American Friends Service Committee (The Quakers) 
+1946: Emily Greene Balch, John Raleigh Mott
+1931: Jane Addams, Nicholas Murray Butler
+1927: Ferdinand Buisson, Ludwig Quidde
+1926: Aristide Briand, Gustav Stresemann
+1925: Sir Austen Chamberlain, Charles Gates Dawes
+1921: Karl Hjalmar Branting, Christian Lous Lange
+1911: Tobias Michael Carel Asser, Alfred Hermann Fried
+1909: Auguste Marie François Beernaert, Paul Henri Benjamin Balluet d'Estournelles de Constant, Baron de Constant de Rebecque
+1908: Klas Pontus Arnoldson, Fredrik Bajer
+1907: Ernesto Teodoro Moneta, Louis Renault
+1902: Élie Ducommun, Charles Albert Gobat
+1901: Jean Henry Dunant, Frédéric Passy
 ECONOMICS
-1969:
--  Ragnar Frisch
--  Jan Tinbergen
-1972:
--  John R. Hicks
--  Kenneth J. Arrow
-1974:
--  Gunnar Myrdal
--  Friedrich August von Hayek
-1975:
--  Leonid Vitaliyevich Kantorovich
--  Tjalling C. Koopmans
-1977:
--  Bertil Ohlin
--  James E. Meade
-1979:
--  Theodore W. Schultz
--  Sir Arthur Lewis
-1990:
--  Harry M. Markowitz
--  Merton H. Miller
--  William F. Sharpe
-1993:
--  Robert W. Fogel
--  Douglass C. North
-1994:
--  John C. Harsanyi
--  John F. Nash Jr.
--  Reinhard Selten
-1996:
--  James A. Mirrlees
--  William Vickrey
-1997:
--  Robert C. Merton
--  Myron S. Scholes
-2000:
--  James J. Heckman
--  Daniel L. McFadden
-2001:
--  George A. Akerlof
--  A. Michael Spence
--  Joseph E. Stiglitz
-2002:
--  Daniel Kahneman
--  Vernon L. Smith
-2003:
--  Robert F. Engle III
--  Clive W.J. Granger
-2004:
--  Finn E. Kydland
--  Edward C. Prescott
-2005:
--  Robert J. Aumann
--  Thomas C. Schelling
-2007:
--  Leonid Hurwicz
--  Eric S. Maskin
--  Roger B. Myerson
-2009:
--  Elinor Ostrom
--  Oliver E. Williamson
-2010:
--  Peter A. Diamond
--  Dale T. Mortensen
--  Christopher A. Pissarides
-2011:
--  Thomas J. Sargent
--  Christopher A. Sims
-2012:
--  Alvin E. Roth
--  Lloyd S. Shapley
-2013:
--  Eugene F. Fama
--  Lars Peter Hansen
--  Robert J. Shiller
-2016:
--  Oliver Hart
--  Bengt Holmström
+2016: Oliver Hart, Bengt Holmström
+2013: Eugene F. Fama, Lars Peter Hansen, Robert J. Shiller
+2012: Alvin E. Roth, Lloyd S. Shapley
+2011: Thomas J. Sargent, Christopher A. Sims
+2010: Peter A. Diamond, Dale T. Mortensen, Christopher A. Pissarides
+2009: Elinor Ostrom, Oliver E. Williamson
+2007: Leonid Hurwicz, Eric S. Maskin, Roger B. Myerson
+2005: Robert J. Aumann, Thomas C. Schelling
+2004: Finn E. Kydland, Edward C. Prescott
+2003: Robert F. Engle III, Clive W.J. Granger
+2002: Daniel Kahneman, Vernon L. Smith
+2001: George A. Akerlof, A. Michael Spence, Joseph E. Stiglitz
+2000: James J. Heckman, Daniel L. McFadden
+1997: Robert C. Merton, Myron S. Scholes
+1996: James A. Mirrlees, William Vickrey
+1994: John C. Harsanyi, John F. Nash Jr., Reinhard Selten
+1993: Robert W. Fogel, Douglass C. North
+1990: Harry M. Markowitz, Merton H. Miller, William F. Sharpe
+1979: Theodore W. Schultz, Sir Arthur Lewis
+1977: Bertil Ohlin, James E. Meade
+1975: Leonid Vitaliyevich Kantorovich, Tjalling C. Koopmans
+1974: Gunnar Myrdal, Friedrich August von Hayek
+1972: John R. Hicks, Kenneth J. Arrow
+1969: Ragnar Frisch, Jan Tinbergen
