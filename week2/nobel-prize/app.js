@@ -1,5 +1,10 @@
+// using JSON data obtained from:
+// http://api.nobelprize.org/v1/prize.json
+
+// start of code that you will learn later in the Node module
 const { readFileSync } = require('fs');
 const jsonString = readFileSync('./data.json', 'utf8');
+// end of code that you will learn later in the Node module
 
 console.log(typeof jsonString);
 const json = JSON.parse(jsonString);

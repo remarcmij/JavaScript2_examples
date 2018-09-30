@@ -1,4 +1,10 @@
+// using JSON data obtained from:
+// http://api.nobelprize.org/v1/prize.json
+
+// start of code that you will learn later in the Node module
 const { readFileSync } = require('fs');
+const jsonString = readFileSync('./data.json', 'utf8');
+// end of code that you will learn later in the Node module
 
 function getCategoryDetails(prizes, category) {
   const filteredPrizes = prizes.filter(prize => prize.category === category);
@@ -32,7 +38,6 @@ function reportCategory(prizes, category) {
 }
 
 function main() {
-  const jsonString = readFileSync('./data.json', 'utf8');
   const json = JSON.parse(jsonString);
   const prizes = json.prizes;
 

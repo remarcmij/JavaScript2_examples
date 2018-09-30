@@ -1,9 +1,12 @@
+// using JSON data obtained from:
 // http://api.population.io/1.0/population/2010/United%20States/?format=json
+
+// start of code that you will learn later in the Node module
 const { readFileSync } = require('fs');
 const jsonString = readFileSync('./data.json', 'utf8');
-const items = JSON.parse(jsonString);
+// start of code that you will learn later in the Node module
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+const items = JSON.parse(jsonString);
 
 const femaleNumbers = items.map(item => item.females);
 
