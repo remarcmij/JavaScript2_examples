@@ -1,16 +1,3 @@
-Set {
-  'physics',
-  'chemistry',
-  'medicine',
-  'literature',
-  'peace',
-  'economics' }
-[ 'physics',
-  'chemistry',
-  'medicine',
-  'literature',
-  'peace',
-  'economics' ]
 PHYSICS
 2017: Rainer Weiss, Barry C. Barish, Kip S. Thorne
 2016: David J. Thouless, F. Duncan M. Haldane, J. Michael Kosterlitz

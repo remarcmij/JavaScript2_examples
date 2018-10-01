@@ -12,17 +12,14 @@ const prizes = jsonObj.prizes;
 
 const categories = prizes.map(prize => prize.category);
 
-const categorySet = new Set(categories);
-console.log(categorySet);
-
 function getPrizesWithTwoPlusLaureatesForCategory(prizes, category) {
   return prizes
     .filter(prize => prize.category === category)
     .filter(prize => prize.laureates.length > 1);
 }
 
+const categorySet = new Set(categories);
 const uniqueCategories = Array.from(categorySet);
-console.log(uniqueCategories);
 
 // ['Rainer Weiss', '...']
 function getLaureatesFullName(prize) {
