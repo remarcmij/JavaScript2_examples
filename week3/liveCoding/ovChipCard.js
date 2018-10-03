@@ -41,7 +41,6 @@ function getOVChipCard() {
   function checkOut() {
     if (!checkedIn) {
       console.log('You are not checked in!');
-      return false;
     }
     clearInterval(timerId);
     checkedIn = false;
