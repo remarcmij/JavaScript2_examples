@@ -1,7 +1,7 @@
 'use strict';
 
 function getOVChipCard() {
-  const RESERVATION_CHARGE = 4;
+  const BOARDING_RATE = 4;
   const FARE_PER_SECOND = 0.2;
   let credit = 0;
   let tripFare = 0;
@@ -17,7 +17,7 @@ function getOVChipCard() {
       console.log('You are already checked in!');
       return false;
     }
-    if (credit - RESERVATION_CHARGE < 0) {
+    if (credit - BOARDING_RATE < 0) {
       console.log('You do not have enough credit!');
       return false;
     }
@@ -25,7 +25,7 @@ function getOVChipCard() {
     checkedIn = true;
 
     console.log('(Starting credit: €' + credit.toFixed(2) + ')');
-    credit -= RESERVATION_CHARGE;
+    credit -= BOARDING_RATE;
     console.log('(Remaining credit after reservation: €' + credit.toFixed(2) + ')');
 
     console.log('Goede reis!');
@@ -45,7 +45,7 @@ function getOVChipCard() {
     }
     clearInterval(timerId);
     checkedIn = false;
-    credit += RESERVATION_CHARGE - tripFare;
+    credit += BOARDING_RATE - tripFare;
 
     console.log('Trip fare: €' + tripFare.toFixed(2));
     console.log('Credit remaining: €' + credit.toFixed(2));
