@@ -1,6 +1,6 @@
 'use strict';
 
-// Jim bought these items at Scheltema, Amsterdam on 29/09/2018.
+// Jim bought these items at the Scheltema book store, Amsterdam on 29/09/2018.
 // All prices are in Euros.
 
 const bookStoreReceipt = [
