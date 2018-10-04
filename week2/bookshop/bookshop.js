@@ -5,7 +5,7 @@
 
 const bookStoreReceipt = [
   {
-    item: 'Reading glasses 3.0+',
+    item: 'Reading glasses',
     priceInclusiveVAT: 34.95,
     percentageVAT: 21
   },
