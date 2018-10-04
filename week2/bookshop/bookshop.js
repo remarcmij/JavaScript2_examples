@@ -6,25 +6,25 @@
 const bookStoreReceipt = [
   {
     item: 'Reading glasses',
-    priceInclusiveVAT: 34.95,
-    percentageVAT: 21
+    priceInclusiveBTW: 34.95,
+    percentageBTW: 21
   },
   {
     item: 'The Go Programming Language, Alan A. A. Donovan, Brian W. Kernighan',
-    priceInclusiveVAT: 39.95,
-    percentageVAT: 6
+    priceInclusiveBTW: 39.95,
+    percentageBTW: 6
   },
   {
     item: 'Alleen de wolken, Philip Blom',
-    priceInclusiveVAT: 34.90,
-    percentageVAT: 6
+    priceInclusiveBTW: 34.90,
+    percentageBTW: 6
   }
 ];
 
 const euroToDollarExchangeRate = 1.17;
 
 // Questions:
-// 1. What is the total Euro price incl VAT and excl VAT?
+// 1. What is the total Euro price incl BTW and excl BTW?
 // 2. If these items could be bought tax free what would be the total
 //    price in dollars?
 

@@ -14,11 +14,11 @@ First solve the exercises below manually, using pen and paper. Then try to solve
 
 Assume the following:
 
-- The VAT on books is 6%.
-- The regular VAT is 21%.
+- The BTW on books is 6%.
+- The regular BTW is 21%.
 - Euro-to-dollar exchange rate: 1.17
 
 Exercise questions:
 
-1. What is the total Euro price incl. VAT and excl. VAT?
+1. What is the total Euro price incl. BTW and excl. BTW?
 2. If these items could be bought tax free, what would be the total price in US dollars?
