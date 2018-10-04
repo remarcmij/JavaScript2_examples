@@ -6,18 +6,18 @@
 const bookStoreReceipt = [
   {
     item: 'Reading glasses',
-    priceInclusiveBTW: 34.95,
-    percentageBTW: 21
+    priceIncBTW: 34.95,
+    percentBTW: 21
   },
   {
     item: 'The Go Programming Language, Alan A. A. Donovan, Brian W. Kernighan',
-    priceInclusiveBTW: 39.95,
-    percentageBTW: 6
+    priceIncBTW: 39.95,
+    percentBTW: 6
   },
   {
     item: 'Alleen de wolken, Philip Blom',
-    priceInclusiveBTW: 34.90,
-    percentageBTW: 6
+    priceIncBTW: 34.90,
+    percentBTW: 6
   }
 ];
 
