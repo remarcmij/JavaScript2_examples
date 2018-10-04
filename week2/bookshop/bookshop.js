@@ -5,17 +5,17 @@
 
 const bookStoreReceipt = [
   {
-    item: 'Reading glasses',
+    description: 'Reading glasses',
     priceIncBTW: 34.95,
     percentBTW: 21
   },
   {
-    item: 'The Go Programming Language, Alan A. A. Donovan, Brian W. Kernighan',
+    description: 'The Go Programming Language, Alan A. A. Donovan, Brian W. Kernighan',
     priceIncBTW: 39.95,
     percentBTW: 6
   },
   {
-    item: 'Alleen de wolken, Philip Blom',
+    description: 'Alleen de wolken, Philip Blom',
     priceIncBTW: 34.90,
     percentBTW: 6
   }
