@@ -10,7 +10,7 @@ The receipt is shown below (prices in Euros).
 
 ## Assignment
 
-First solve the exercises below manually, using pen and paper. Or use spreadsheet if you like. Then try to solve them by writing a JavaScript program.
+First solve the exercises below manually, using pen and paper. Or use a spreadsheet if you like. Then try to solve them by writing a JavaScript program.
 
 Assume the following:
 
