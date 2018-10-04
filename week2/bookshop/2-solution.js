@@ -32,15 +32,15 @@ function deductBTW(priceIncBTW, percentBTW) {
   return priceIncBTW / (1 + percentBTW / 100);
 }
 
-const totalIncBTW = bookStoreReceipt.reduce((total, item) => {
-  return total + item.priceIncBTW;
-}, 0);
+const totalIncBTW = bookStoreReceipt
+  .map(item => item.priceIncBTW)
+  .reduce((total, price) => total + price, 0);
 
 console.log('Total incl BTW: € ' + totalIncBTW.toFixed(2));
 
-const totalExBTW = bookStoreReceipt.reduce((total, item) => {
-  return total + deductBTW(item.priceIncBTW, item.percentBTW);
-}, 0);
+const totalExBTW = bookStoreReceipt
+  .map(item => deductBTW(item.priceIncBTW, item.percentBTW))
+  .reduce((total, priceExBTW) => total + priceExBTW, 0);
 
 console.log('Total excl BTW: € ' + totalExBTW.toFixed(2));
 
