@@ -16,7 +16,7 @@ Assume the following:
 
 - The BTW on books is 6%.
 - The regular BTW is 21%.
-- Euro-to-dollar exchange rate: 1.17
+- €1 = $1.17
 
 Exercise questions:
 
