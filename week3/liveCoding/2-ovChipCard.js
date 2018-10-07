@@ -15,6 +15,11 @@ function getCredit() {
   return credit;
 }
 
+function addZoneTick() {
+  tripFare += FARE_PER_SECOND;
+  console.log('Fare: €' + tripFare.toFixed(2));
+}
+
 function checkIn() {
   if (checkedIn) {
     console.log('You are already checked in!');
@@ -32,11 +37,9 @@ function checkIn() {
   console.log('(Remaining credit after reservation: €' + credit.toFixed(2) + ')');
 
   console.log('Goede reis!');
+  addZoneTick();
 
-  timerId = setInterval(() => {
-    tripFare += FARE_PER_SECOND;
-    console.log('Fare: €' + tripFare.toFixed(2));
-  }, 1000);
+  timerId = setInterval(addZoneTick, 1000);
 
   return true;
 }

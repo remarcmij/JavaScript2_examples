@@ -16,6 +16,11 @@ function getOVChipCard() {
     return credit;
   }
 
+  function addZoneTick() {
+    tripFare += FARE_PER_SECOND;
+    console.log('Fare: €' + tripFare.toFixed(2));
+  }
+
   function checkIn() {
     if (checkedIn) {
       console.log('You are already checked in!');
@@ -34,10 +39,8 @@ function getOVChipCard() {
 
     console.log('Goede reis!');
 
-    timerId = setInterval(() => {
-      tripFare += FARE_PER_SECOND;
-      console.log('Fare: €' + tripFare.toFixed(2));
-    }, 1000);
+    addZoneTick();
+    timerId = setInterval(addZoneTick, 1000);
 
     return true;
   }
