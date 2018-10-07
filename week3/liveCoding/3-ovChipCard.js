@@ -12,6 +12,10 @@ function getOVChipCard() {
     credit += amount;
   }
 
+  function getCredit() {
+    return credit;
+  }
+
   function checkIn() {
     if (checkedIn) {
       console.log('You are already checked in!');
@@ -57,14 +61,21 @@ function getOVChipCard() {
 
   return {
     addCredit: addCredit,
+    getCredit: getCredit,
     checkIn: checkIn,
     checkOut: checkOut
   };
 }
 
-const ovChipCard = getOVChipCard();
-ovChipCard.addCredit(10);
+function main() {
+  const ovChipCard = getOVChipCard();
+  ovChipCard.addCredit(10);
 
-if (ovChipCard.checkIn()) {
-  setTimeout(() => ovChipCard.checkOut(), 8000);
+  console.log('Credit: €' + ovChipCard.getCredit().toFixed(2));
+
+  if (ovChipCard.checkIn()) {
+    setTimeout(() => ovChipCard.checkOut(), 8000);
+  }
 }
+
+main();
