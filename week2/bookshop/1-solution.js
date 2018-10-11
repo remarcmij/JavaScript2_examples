@@ -37,7 +37,7 @@ console.log('Total incl BTW: € ' + totalIncBTW.toFixed(2));
 
 let totalExBTW = 0;
 for (const item of bookStoreReceipt) {
-  totalExBTW += item.priceIncBTW / (1 + item.percentBTW / 100);
+  totalExBTW += item.priceIncBTW * 100 / (100 + item.percentBTW);
 }
 
 console.log('Total excl BTW: € ' + totalExBTW.toFixed(2));

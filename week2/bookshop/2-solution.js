@@ -29,7 +29,7 @@ const euroToDollarExchangeRate = 1.17;
 //    price in dollars?
 
 function deductBTW(priceIncBTW, percentBTW) {
-  return priceIncBTW / (1 + percentBTW / 100);
+  return priceIncBTW * 100 / (100 + percentBTW);
 }
 
 const totalIncBTW = bookStoreReceipt

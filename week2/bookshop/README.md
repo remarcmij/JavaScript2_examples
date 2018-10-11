@@ -1,8 +1,8 @@
 # Visit to the Book Store
 
-On Saturday, 29 September 2018, Jim went to visit his favorite book store in Amsterdam: Scheltema, located on Rokin. Scheltema has a great collection of fiction, non-fiction and science literature. And, not unimportantly, an extensive collection of books on IT.
+On Saturday, 29 September 2018, Jim went to visit his favorite book store in Amsterdam: Scheltema, located on Rokin. Scheltema has a great collection of fiction, non-fiction and scientific literature. And, not unimportantly, an extensive collection of books on IT.
 
-After some wandering about, Jim left the book store with a new set of reading glasses, a book on the Go Programming Language and a history book on the Interbellum in Europe, i.e. the period between the first and second World War.
+After looking around a bit, Jim left the book store with a new set of reading glasses, a book on the Go Programming Language and a history book on the Interbellum in Europe, i.e. the period between the First and Second World War.
 
 The receipt is shown below (prices in Euros).
 
