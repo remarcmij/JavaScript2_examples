@@ -15,6 +15,7 @@ function map(arr, mapFn) {
   return result;
 }
 
+console.log('\n.map()');
 console.log(map(numbers, x => x * x));
 console.log(numbers.map(x => x * x));
 
@@ -29,6 +30,7 @@ function filter(arr, predicateFn) {
   return result;
 }
 
+console.log('\n.filter()');
 console.log(filter(numbers, x => x % 2 === 0));
 console.log(numbers.filter(x => x % 2 === 0));
 
@@ -41,6 +43,7 @@ function reduce(arr, reducerFn, initialValue) {
   return accumulator;
 }
 
+console.log('\n.reduce()');
 console.log(reduce(numbers, (acc, number) => acc + number, 0));
 console.log(numbers.reduce((acc, number) => acc + number, 0));
 
@@ -50,6 +53,8 @@ function forEach(arr, func) {
     func(elem, i, arr);
   }
 }
+
+console.log('\n.forEach()');
 
 let sum = 0;
 forEach(numbers, x => sum += x);
