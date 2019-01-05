@@ -1,0 +1,13 @@
+/// Place your settings in this file to overwrite the default settings
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "onFocusChange",
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
+}
