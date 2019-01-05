@@ -3,14 +3,15 @@
 
 // start of code that you will learn later in the Node module
 const { readFileSync } = require('fs');
+
 const jsonString = readFileSync('./data.json', 'utf8');
 // end of code that you will learn later in the Node module
 
 const jsonObj = JSON.parse(jsonString);
 
-const prizes = jsonObj.prizes;
+const nobelPrizes = jsonObj.prizes;
 
-const categories = prizes.map(prize => prize.category);
+const categories = nobelPrizes.map(prize => prize.category);
 
 function getPrizesWithTwoPlusLaureatesForCategory(prizes, category) {
   return prizes
@@ -28,7 +29,10 @@ function getLaureatesFullName(prize) {
 
 uniqueCategories.forEach(category => {
   console.log(category.toUpperCase());
-  const prizesWithTwoPlusLaureates = getPrizesWithTwoPlusLaureatesForCategory(prizes, category);
+  const prizesWithTwoPlusLaureates = getPrizesWithTwoPlusLaureatesForCategory(
+    nobelPrizes,
+    category
+  );
 
   prizesWithTwoPlusLaureates
     .map(prize => {

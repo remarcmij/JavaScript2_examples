@@ -17,4 +17,3 @@ delayedGreeting();
 console.log('Returned from delayedGreeting');
 
 console.log('End of program (I think)');
-

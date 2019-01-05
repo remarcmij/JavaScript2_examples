@@ -3,6 +3,7 @@
 
 // start of code that you will learn later in the Node module
 const { readFileSync } = require('fs');
+
 const jsonString = readFileSync('./data.json', 'utf8');
 // end of code that you will learn later in the Node module
 
@@ -12,7 +13,9 @@ function getCategoryDetails(prizes, category) {
   const filteredPrizesTwoPlus = filteredPrizes.filter(prize => prize.laureates.length >= 2);
 
   const prizeDetails = filteredPrizesTwoPlus.map(prize => {
-    const laureateNames = prize.laureates.map(laureate => laureate.firstname + ' ' + laureate.surname);
+    const laureateNames = prize.laureates.map(
+      laureate => laureate.firstname + ' ' + laureate.surname
+    );
     return {
       year: prize.year,
       laureates: laureateNames

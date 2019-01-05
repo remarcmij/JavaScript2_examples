@@ -3,6 +3,7 @@
 
 // start of code that you will learn later in the Node module
 const { readFileSync } = require('fs');
+
 const jsonString = readFileSync('./data.json', 'utf8');
 // end of code that you will learn later in the Node module
 
@@ -29,17 +30,19 @@ const medicinePrizes = prizes.filter(prize => prize.category === 'medicine');
 console.log(medicinePrizes);
 console.log(medicinePrizes.length);
 
-const medicinePrizesWithTwoPlusLaureates = medicinePrizes.filter(prize => prize.laureates.length >= 2);
+const medicinePrizesWithTwoPlusLaureates = medicinePrizes.filter(
+  prize => prize.laureates.length >= 2
+);
 console.log(medicinePrizesWithTwoPlusLaureates.length);
 
-const prizeYears = medicinePrizesWithTwoPlusLaureates
-  .map(prize => prize.year)
-  .sort();
+const prizeYears = medicinePrizesWithTwoPlusLaureates.map(prize => prize.year).sort();
 
 console.log('prizeYears :', prizeYears.join(', '));
 
 const prizeDetails = medicinePrizesWithTwoPlusLaureates.map(prize => {
-  const laureateNames = prize.laureates.map(laureate => laureate.firstname + ' ' + laureate.surname);
+  const laureateNames = prize.laureates.map(
+    laureate => laureate.firstname + ' ' + laureate.surname
+  );
   return {
     year: prize.year,
     laureates: laureateNames
@@ -56,4 +59,3 @@ prizeDetails
       console.log('-  ' + laureate);
     });
   });
-

@@ -1,4 +1,5 @@
 'use strict';
+
 {
   const todos = [
     {
@@ -51,7 +52,7 @@
         li.style.textDecoration = 'line-through';
       }
 
-      li.addEventListener('click', function () {
+      li.addEventListener('click', function() {
         todo.done = !todo.done;
         if (todo.done) {
           li.style.textDecoration = 'line-through';

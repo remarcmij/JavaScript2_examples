@@ -1,8 +1,9 @@
 'use strict';
 
+// spell-checker: disable
+
 // Jim bought these items at the Scheltema book store, Amsterdam on 29/09/2018.
 // All prices are in Euros.
-
 const bookStoreReceipt = [
   {
     description: 'Reading glasses',
@@ -16,7 +17,7 @@ const bookStoreReceipt = [
   },
   {
     description: 'Alleen de wolken, Philip Blom',
-    priceIncBTW: 34.90,
+    priceIncBTW: 34.9,
     percentBTW: 6
   }
 ];
@@ -27,4 +28,3 @@ const euroToDollarExchangeRate = 1.17;
 // 1. What is the total Euro price incl BTW and excl BTW?
 // 2. If these items could be bought tax free what would be the total
 //    price in dollars?
-

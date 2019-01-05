@@ -1,40 +1,27 @@
 'use strict';
+
 {
   const boards = {
-    level1: [
-      ['T', 'T', ' ', 'F'],
-      ['T', '', '', ''],
-      ['', '', '', ''],
-      ['R', '', '', 'W']
-    ],
+    level1: [['T', 'T', ' ', 'F'], ['T', '', '', ''], ['', '', '', ''], ['R', '', '', 'W']],
     level2: [
-      ['T', 'F', 'T',],
-      ['T', '', 'T',],
-      ['T', '', 'T',],
-      ['T', '', 'T',],
-      ['T', '', 'T',],
-      ['T', '', 'T',],
-      ['T', '', 'T',],
+      ['T', 'F', 'T'],
+      ['T', '', 'T'],
+      ['T', '', 'T'],
+      ['T', '', 'T'],
+      ['T', '', 'T'],
+      ['T', '', 'T'],
+      ['T', '', 'T'],
       ['T', 'R', 'T']
     ]
   };
 
-  function renderFixedParts() {
-    const root = document.getElementById('root');
-    const header = createAndAppend('header', root);
-    const select = createAndAppend('select', header);
-
-    for (const level in boards) {
-      const option = createAndAppend('option', select, level);
-      option.setAttribute('value', level);
+  function createAndAppend(name, parent, text) {
+    const elem = document.createElement(name);
+    parent.appendChild(elem);
+    if (text !== undefined) {
+      elem.innerText = text;
     }
-
-    select.addEventListener('change', function () {
-      renderBoard(select.value);
-    });
-
-    const container = createAndAppend('div', root);
-    container.setAttribute('id', 'container');
+    return elem;
   }
 
   function renderBoard(level) {
@@ -55,13 +42,22 @@
     }
   }
 
-  function createAndAppend(name, parent, text) {
-    const elem = document.createElement(name);
-    parent.appendChild(elem);
-    if (text !== undefined) {
-      elem.innerText = text;
+  function renderFixedParts() {
+    const root = document.getElementById('root');
+    const header = createAndAppend('header', root);
+    const select = createAndAppend('select', header);
+
+    for (const level of Object.keys(boards)) {
+      const option = createAndAppend('option', select, level);
+      option.setAttribute('value', level);
     }
-    return elem;
+
+    select.addEventListener('change', function() {
+      renderBoard(select.value);
+    });
+
+    const container = createAndAppend('div', root);
+    container.setAttribute('id', 'container');
   }
 
   function main() {

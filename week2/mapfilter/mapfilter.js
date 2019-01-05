@@ -57,9 +57,9 @@ function forEach(arr, func) {
 console.log('\n.forEach()');
 
 let sum = 0;
-forEach(numbers, x => sum += x);
+forEach(numbers, x => (sum += x));
 console.log(sum);
 
 sum = 0;
-numbers.forEach(x => sum += x);
+numbers.forEach(x => (sum += x));
 console.log(sum);

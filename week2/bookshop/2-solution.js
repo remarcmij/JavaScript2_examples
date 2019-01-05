@@ -1,5 +1,7 @@
 'use strict';
 
+// spell-checker: disable
+
 // Jim bought these items at the Scheltema book store, Amsterdam on 29/09/2018.
 // All prices are in Euros.
 
@@ -16,7 +18,7 @@ const bookStoreReceipt = [
   },
   {
     description: 'Alleen de wolken, Philip Blom',
-    priceIncBTW: 34.90,
+    priceIncBTW: 34.9,
     percentBTW: 6
   }
 ];
@@ -29,7 +31,7 @@ const euroToDollarExchangeRate = 1.17;
 //    price in dollars?
 
 function deductBTW(priceIncBTW, percentBTW) {
-  return priceIncBTW * 100 / (100 + percentBTW);
+  return (priceIncBTW * 100) / (100 + percentBTW);
 }
 
 const totalIncBTW = bookStoreReceipt

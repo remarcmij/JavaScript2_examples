@@ -17,7 +17,7 @@ function createOVChipCard() {
   }
 
   function addZoneTick() {
-    tripFare += 0.20;
+    tripFare += 0.2;
     console.log('Fare up to now: €' + tripFare.toFixed(2));
   }
 
@@ -64,7 +64,6 @@ function createOVChipCard() {
 }
 
 function main() {
-
   const chipCard = createOVChipCard();
 
   chipCard.addCredit(10);
