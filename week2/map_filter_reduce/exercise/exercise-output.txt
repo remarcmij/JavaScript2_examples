@@ -1,0 +1,17 @@
+Number of English books: 6
+Number of Turkish books: 4
+All authors: [ 'Ernest Hemmingway',
+  'Simon Cottee',
+  'Iskender Pala',
+  'Daniel Defoe',
+  'Victor Hugo',
+  'Lesley Hazleton',
+  'Jules Verne',
+  'Peyami Safa',
+  'Linus Torvalds',
+  'R. M. Ballantyne' ]
+Turkish authors: [ 'Iskender Pala',
+  'Jules Verne',
+  'Peyami Safa',
+  'R. M. Ballantyne' ]
+Unique languages: [ 'English', 'Turkish' ]
