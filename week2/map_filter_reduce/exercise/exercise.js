@@ -1,6 +1,5 @@
 'use strict';
 
-{
   // Favourite books of Utku Kopuz, class 19
   const booksJSON = `
   [
@@ -55,5 +54,5 @@
     // console.log('Unique languages:', uniqueLanguages);
   }
 
-  main();
-}
+main();
+  
