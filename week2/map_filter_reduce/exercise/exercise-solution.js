@@ -64,10 +64,10 @@
   const authors = bookDetails.map(book => book.author);
   console.log('All authors:', authors);
 
-  const turkishAuthors = bookDetails
+  const turkishTitles = bookDetails
     .filter(book => book.language === 'Turkish')
-    .map(book => book.author);
-  console.log('Turkish authors:', turkishAuthors);
+    .map(book => book.title);
+  console.log('Turkish titles:', turkishTitles);
 
   const uniqueLanguages = bookDetails.reduce((acc, book) => {
     if (!acc.includes(book.language)) {

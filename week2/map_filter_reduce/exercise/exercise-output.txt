@@ -10,8 +10,8 @@ All authors: [ 'Ernest Hemmingway',
   'Peyami Safa',
   'Linus Torvalds',
   'R. M. Ballantyne' ]
-Turkish authors: [ 'Iskender Pala',
-  'Jules Verne',
-  'Peyami Safa',
-  'R. M. Ballantyne' ]
+Turkish titles: [ 'Efsane',
+  'Denizler Altında 20000 Fersah',
+  'Cingöz Recai',
+  'Mercan Adası' ]
 Unique languages: [ 'English', 'Turkish' ]
