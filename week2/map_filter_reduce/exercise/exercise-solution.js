@@ -16,7 +16,7 @@
     { "title": "Mercan Adası", "language": "Turkish", "author": "R. M. Ballantyne"  }
   ]`;
 
-  function getCountBooksForLanguage(books, language) {
+  function getCountOfBooksForLanguage(books, language) {
     const booksForLanguage = books.filter(book => book.language === language);
     return booksForLanguage.length;
   }
@@ -41,10 +41,10 @@
   function main() {
     const books = JSON.parse(booksJSON);
 
-    const englishBookCount = getCountBooksForLanguage(books, 'English');
+    const englishBookCount = getCountOfBooksForLanguage(books, 'English');
     console.log('Number of English books:', englishBookCount);
 
-    const turkishBookCount = getCountBooksForLanguage(books, 'Turkish');
+    const turkishBookCount = getCountOfBooksForLanguage(books, 'Turkish');
     console.log('Number of Turkish books:', turkishBookCount);
 
     const authors = getAllAuthors(books);
