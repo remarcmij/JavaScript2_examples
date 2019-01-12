@@ -40,11 +40,11 @@
     }
   ];
 
-  function render(container) {
+  function render(ul) {
     for (let i = 0; i < todos.length; i++) {
       const todo = todos[i];
       const li = document.createElement('li');
-      container.appendChild(li);
+      ul.appendChild(li);
       li.innerText = todo.task;
       li.className = 'todo';
 
