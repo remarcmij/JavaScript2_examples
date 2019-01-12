@@ -17,24 +17,24 @@
   ]`;
 
   function getCountBooksForLanguage(books, language) {
-    // replace the console.log with your code
-    console.log(books.length, language);
+    const booksForLanguage = books.filter(book => ...);
+    return booksForLanguage.length;
   }
 
-  function getAllAuthors(books) {
-    // replace the console.log with your code
-    console.log(books.length);
-  }
+  // function getAllAuthors(books) {
+  //   return books.map(book => ...);
+  // }
 
-  function getTitlesForLanguage(books, language) {
-    // replace the console.log with your code
-    console.log(books.length, language);
-  }
+  // function getTitlesForLanguage(books, language) {
+  //   return books.filter(book => ...).map(book => ...);
+  // }
 
-  function getUniqueLanguages(books) {
-    // replace the console.log with your code
-    console.log(books.length);
-  }
+  // function getUniqueLanguages(books) {
+  //   return books.reduce((acc, book) => {
+  //     // ...
+  //     return acc;
+  //   }, []);
+  // }
 
   function main() {
     const books = JSON.parse(booksJSON);
@@ -45,14 +45,14 @@
     const turkishBookCount = getCountBooksForLanguage(books, 'Turkish');
     console.log('Number of Turkish books:', turkishBookCount);
 
-    const authors = getAllAuthors(books);
-    console.log('All authors:', authors);
+    // const authors = getAllAuthors(books);
+    // console.log('All authors:', authors);
 
-    const turkishTitles = getTitlesForLanguage(books, 'Turkish');
-    console.log('Turkish titles:', turkishTitles);
+    // const turkishTitles = getTitlesForLanguage(books, 'Turkish');
+    // console.log('Turkish titles:', turkishTitles);
 
-    const uniqueLanguages = getUniqueLanguages(books);
-    console.log('Unique languages:', uniqueLanguages);
+    // const uniqueLanguages = getUniqueLanguages(books);
+    // console.log('Unique languages:', uniqueLanguages);
   }
 
   main();
