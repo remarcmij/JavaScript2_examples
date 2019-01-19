@@ -17,6 +17,6 @@ Array.prototype.myMap = function(mapFn) {
 const numbers = [1, 2, 3, 4];
 const square = x => x * x;
 
-console.log('numbers.map(...) // ->', map(numbers, square));
-console.log('map(numbers, ...) // ->', numbers.map(square));
+console.log('map(numbers, ...) // ->', map(numbers, square));
+console.log('numbers.map(...) // ->', numbers.map(square));
 console.log('numbers.myMap(...) // ->', numbers.myMap(square));
