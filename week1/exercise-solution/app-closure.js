@@ -40,6 +40,17 @@
     }
   ];
 
+  function createClickHandler(li, todo) {
+    return function() {
+      todo.done = !todo.done;
+      if (todo.done) {
+        li.style.textDecoration = 'line-through';
+      } else {
+        li.removeAttribute('style');
+      }
+    };
+  }
+
   function render(ul) {
     for (let i = 0; i < todos.length; i++) {
       const todo = todos[i];
@@ -52,14 +63,7 @@
         li.style.textDecoration = 'line-through';
       }
 
-      li.addEventListener('click', function() {
-        todo.done = !todo.done;
-        if (todo.done) {
-          li.style.textDecoration = 'line-through';
-        } else {
-          li.removeAttribute('style');
-        }
-      });
+      li.addEventListener('click', createClickHandler(li, todo));
     }
   }
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Scope</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function toggleImage() {
+        const elem = document.getElementById('image');
+        elem.hidden = !elem.hidden;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Scope</h1>
+    <ul>
+      <li>Global scope</li>
+      <li>Local scope</li>
+      <li>Block scope</li>
+      <li>(Script scope)</li>
+    </ul>
+    <p>Open the console to see the output.</p>
+    <button onclick="toggleImage()">Show/Hide Image</button>
+    <img
+      src="https://media.giphy.com/media/eNgX7hfFFH0I0/giphy.gif"
+      alt="Nested dolls"
+      id="image"
+    />
+
+    <script src="app-global.js"></script>
+  </body>
+</html>

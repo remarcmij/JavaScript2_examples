@@ -1,12 +1,21 @@
 'use strict';
 
-function getOVChipCard() {
-  const BOARDING_RATE = 4;
-  const FARE_PER_SECOND = 0.2;
-  let credit = 0;
+// https://www.ov-chipkaart.nl/everything-about-travelling/price-list/boarding-fare-and-basic-fare.htm
+// https://www.gvb.nl/saldo
+
+function createOVChipCard(startCredit = 0) {
+  const BOARDING_FARE = 4;
+  const BASE_FARE = 0.96;
+  const GVB_KILOMETER_FARE = 0.16;
+  let credit = startCredit;
   let tripFare = 0;
-  let checkedIn = false;
+  let isCheckedIn = false;
   let timerId = null;
+
+  function addKilometerFare() {
+    tripFare += GVB_KILOMETER_FARE;
+    console.log('Fare: €' + tripFare.toFixed(2));
+  }
 
   function addCredit(amount) {
     credit += amount;
@@ -16,50 +25,52 @@ function getOVChipCard() {
     return credit;
   }
 
-  function addZoneTick() {
-    tripFare += FARE_PER_SECOND;
-    console.log('Fare: €' + tripFare.toFixed(2));
+  function startTimer() {
+    timerId = setInterval(addKilometerFare, 1000);
+  }
+
+  function stopTimer() {
+    clearInterval(timerId);
   }
 
   function checkIn() {
-    if (checkedIn) {
+    if (isCheckedIn) {
       console.log('You are already checked in!');
       return false;
     }
-    if (credit - BOARDING_RATE < 0) {
+    if (credit <= 0) {
       console.log('You do not have enough credit!');
       return false;
     }
 
-    checkedIn = true;
+    isCheckedIn = true;
+    tripFare = BASE_FARE;
 
     console.log('(Starting credit: €' + credit.toFixed(2) + ')');
-    credit -= BOARDING_RATE;
+    credit -= BOARDING_FARE;
     console.log('(Remaining credit after reservation: €' + credit.toFixed(2) + ')');
 
     console.log('Goede reis!');
 
-    addZoneTick();
-    timerId = setInterval(addZoneTick, 1000);
+    addKilometerFare();
+
+    startTimer();
 
     return true;
   }
 
   function checkOut() {
-    if (!checkedIn) {
+    if (!isCheckedIn) {
       console.log('You are not checked in!');
+      return;
     }
-    clearInterval(timerId);
-    checkedIn = false;
-    credit += BOARDING_RATE - tripFare;
+    stopTimer();
+    isCheckedIn = false;
+    credit += BOARDING_FARE - tripFare;
 
     console.log('Trip fare: €' + tripFare.toFixed(2));
     console.log('Credit remaining: €' + credit.toFixed(2));
-    tripFare = 0;
-
-    if (credit < 0) {
-      console.log('You must add credit before you can travel again!');
-    }
+    console.log('Tot ziens!');
   }
 
   return {
@@ -71,13 +82,12 @@ function getOVChipCard() {
 }
 
 function main() {
-  const ovChipCard = getOVChipCard();
-  ovChipCard.addCredit(10);
+  const ovChipCard = createOVChipCard(10);
 
   console.log('Credit: €' + ovChipCard.getCredit().toFixed(2));
 
   if (ovChipCard.checkIn()) {
-    setTimeout(() => ovChipCard.checkOut(), 8000);
+    setTimeout(() => ovChipCard.checkOut(), 4000);
   }
 }
 
