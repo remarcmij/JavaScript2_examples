@@ -28,10 +28,16 @@ function createWallet(name, cash) {
     return `Name: ${name}, balance: ${cash}`;
   }
 
+  function reportBalance() {
+    console.log(toString());
+    return this;
+  }
+
   return {
     addCash: addCash,
     transferInto: transferInto,
-    toString: toString
+    toString: toString,
+    reportBalance: reportBalance
   };
 }
 
@@ -42,6 +48,6 @@ const yash = createWallet('Yash', 20);
 jim.transferInto(sander, 50); // .transferInto(yash, 10);
 yash.transferInto(sander, 25);
 
-console.log(jim.toString());
-console.log(sander.toString());
-console.log(yash.toString());
+jim.reportBalance();
+sander.reportBalance();
+yash.reportBalance();
