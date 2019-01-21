@@ -38,7 +38,7 @@
     const logFn = createLoggerTo(root);
     const createWallet = createWalletWithLogFn(logFn);
 
-    const jim = createWallet('Jim', 100, logFn);
+    const jim = createWallet('Jim', 100);
     const sander = createWallet('Sander', 1000);
     const yash = createWallet('Yash', 20);
 
