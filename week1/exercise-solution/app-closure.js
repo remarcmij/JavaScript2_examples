@@ -43,11 +43,7 @@
   function createClickHandler(li, todo) {
     return function() {
       todo.done = !todo.done;
-      if (todo.done) {
-        li.style.textDecoration = 'line-through';
-      } else {
-        li.removeAttribute('style');
-      }
+      li.style.textDecoration = todo.done ? 'line-through' : 'none';
     };
   }
 
