@@ -42,12 +42,12 @@ function createWallet(name, cash) {
 }
 
 const jim = createWallet('Jim', 100);
-const sander = createWallet('Sander', 1000);
+const hasan = createWallet('Hsan', 1000);
 const yash = createWallet('Yash', 20);
 
-jim.transferInto(sander, 50); // .transferInto(yash, 10);
-yash.transferInto(sander, 25);
+jim.transferInto(hasan, 50); // .transferInto(yash, 10);
+yash.transferInto(hasan, 25);
 
 jim.reportBalance();
-sander.reportBalance();
+hasan.reportBalance();
 yash.reportBalance();
