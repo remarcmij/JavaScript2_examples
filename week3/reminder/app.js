@@ -25,7 +25,7 @@
   }
 
   function main() {
-    console.log('entering function main');
+    console.log('2. entering function main');
 
     const btn = document.getElementById('btn');
     btn.addEventListener('click', () => {
@@ -33,10 +33,10 @@
       reminder('Commit before you push', 5, ul);
     });
 
-    console.log('leaving function main');
+    console.log('3. leaving function main');
   }
 
   window.onload = main;
 
-  console.log('leaving block');
+  console.log('1. leaving block');
 }
